@@ -19,7 +19,7 @@ import { IndexModule } from "./pages/index/index.module";
     BrowserModule,
     RouterModule.forRoot(routes,{ 
       preloadingStrategy: PreloadAllModules,
-      // useHash: true
+      useHash: true
     }),
     IndexModule
   ],

@@ -1,3 +1,16 @@
+#Structure
+- app
+    - app-routing
+    - components ( component like: button , list , table )
+    - core ( component core can use multiple project like : auth , global save session )
+    - directives
+    - layout ( component layout like: Block Form about: button , list , table  )
+    - pages ( component pages like about , index , detail )
+    - shared ( module can be share for all other module )
+- assests
+
+
+
 # PackageAngular5
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
