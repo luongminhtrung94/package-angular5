@@ -3,9 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import {HttpClientModule } from "@angular/common/http";
 
-//components
-import { ButtonComponent } from "../components/button/button.component";
-
 @NgModule({
   imports: [
     CommonModule,
@@ -19,8 +16,6 @@ import { ButtonComponent } from "../components/button/button.component";
     HttpClientModule
   ],
   providers:[HttpClientModule],
-  declarations: [
-    ButtonComponent
-  ]
+  declarations: []
 })
 export class SharedModule { }
